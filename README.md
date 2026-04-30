@@ -18,6 +18,5 @@ Tras el análisis, se recomiendan las siguientes medidas para mitigar ataques de
 2. **Cambiar el puerto por defecto**: Mover el servicio del puerto 22 a uno menos común.
 3. **Implementar Fail2Ban**: Automatizar el bloqueo de IPs tras X intentos fallidos.
 4. **Uso de llaves SSH (PKI)**: Deshabilitar completamente la autenticación por contraseña.
-<img width="1300" height="736" alt="Captura desde 2026-04-30 21-34-26" src="https://github.com/user-attachments/assets/429f21a1-85cc-4728-8f63-a8dc048447fa" />
-<img width="1300" height="736" alt="Captura desde 2026-04-30 21-34-09" src="https://github.com/user-attachments/assets/d3cb6091-a8c9-4fff-b78c-ed74d8cbcf25" />
-
+![Evidencia del Terminal](hp1.png)
+![Laboratorio HP 630](hp2.png)
