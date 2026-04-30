@@ -12,6 +12,7 @@ Este proyecto demuestra la capacidad de identificar y analizar intentos de acces
 Para identificar el ataque de fuerza bruta, se utilizó una "tubería" (pipeline) de comandos en la terminal para filtrar, procesar y contabilizar la evidencia:
 ```bash
 sudo grep 'Failed password' /var/log/auth.log | awk '{print $(NF-3)}' | sort | uniq -c
+'''
 ## 🛡️ Recomendaciones de Seguridad (Hardening)
 Tras el análisis, se recomiendan las siguientes medidas para mitigar ataques de fuerza bruta en el servicio SSH:
 1. **Deshabilitar el acceso root**: Modificar `PermitRootLogin no` en `/etc/ssh/sshd_config`.
