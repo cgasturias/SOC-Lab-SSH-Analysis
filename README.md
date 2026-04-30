@@ -14,12 +14,13 @@ Para identificar el ataque de fuerza bruta, se utilizó una "tubería" (pipeline
 sudo grep 'Failed password' /var/log/auth.log | awk '{print $(NF-3)}' | sort | uniq -c
 '''
 ## 🛡️ Recomendaciones de Seguridad (Hardening)
-Tras el análisis, se recomiendan las siguientes medidas para mitigar ataques de fuerza bruta en el servicio SSH:
+Tras el análisis, se recomiendan las siguientes medidas para mitigar ataques de fuerza bruta:
 1. **Deshabilitar el acceso root**: Modificar `PermitRootLogin no` en `/etc/ssh/sshd_config`.
 2. **Cambiar el puerto por defecto**: Mover el servicio del puerto 22 a uno menos común.
 3. **Implementar Fail2Ban**: Automatizar el bloqueo de IPs tras X intentos fallidos.
 4. **Uso de llaves SSH (PKI)**: Deshabilitar completamente la autenticación por contraseña.
+
+## 📊 Evidencia del Laboratorio
 ![Evidencia del Terminal](hp1.png)
+
 ![Laboratorio HP 630](hp2.png)
-<img width="1300" height="736" alt="hp2" src="https://github.com/user-attachments/assets/7333edd8-77cc-442f-91e4-907195c2ebdc" />
-<img width="1300" height="736" alt="hp1" src="https://github.com/user-attachments/assets/4d1986a0-e404-49bf-bca1-d2d2e588eee8" />
