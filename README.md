@@ -21,3 +21,5 @@ Tras el análisis, se recomiendan las siguientes medidas para mitigar ataques de
 4. **Uso de llaves SSH (PKI)**: Deshabilitar completamente la autenticación por contraseña.
 ![Evidencia del Terminal](hp1.png)
 ![Laboratorio HP 630](hp2.png)
+<img width="1300" height="736" alt="hp2" src="https://github.com/user-attachments/assets/7333edd8-77cc-442f-91e4-907195c2ebdc" />
+<img width="1300" height="736" alt="hp1" src="https://github.com/user-attachments/assets/4d1986a0-e404-49bf-bca1-d2d2e588eee8" />
